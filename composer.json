@@ -1,5 +1,5 @@
 {
-    "name": "binshops/laravel-ticket",
+    "name": "ghaemelahi/laravel-ticket",
     "description": "A simple ticketing system compatible with Laravel 5.1 to 12.x that integrates smoothly with Laravel's default users and auth system.",
     "type": "library",
     "keywords": [
@@ -15,7 +15,7 @@
         {
             "name": "Sam Berry",
             "email": "sam@binshops.com",
-            "homepage": "https://github.com/binshops/laravel-ticket"
+            "homepage": "https://github.com/ghaemelahi/laravel-ticket-version"
         },
         {
             "name": "Forked and updated by Ghaem",
