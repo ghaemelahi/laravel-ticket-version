@@ -1,6 +1,6 @@
 {
     "name": "binshops/laravel-ticket",
-    "description": "A simple ticketing system for Laravel 5.1 to 12.x that integrates smoothly with Laravel's default users and auth system.",
+    "description": "A simple ticketing system compatible with Laravel 5.1 to 12.x that integrates smoothly with Laravel's default users and auth system.",
     "type": "library",
     "keywords": [
         "laravel",
@@ -26,11 +26,11 @@
         "php": ">=8.1",
         "laravel/framework": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
         "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-        "spatie/laravel-html": "^3.2",
-        "yajra/laravel-datatables-oracle": "^9.0|^10.0",
+        "spatie/laravel-html": "^3.2|^4.0",
+        "yajra/laravel-datatables-oracle": "^10.0|^11.0",
         "jenssegers/date": "^4.0",
-        "mews/purifier": "^3.4",
-        "doctrine/dbal": "^3.0"
+        "mews/purifier": "^3.4|^4.0",
+        "doctrine/dbal": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -43,6 +43,10 @@
                 "Binshops\\LaravelTicket\\TicketServiceProvider"
             ]
         }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
