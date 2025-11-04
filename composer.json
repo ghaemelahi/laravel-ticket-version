@@ -15,7 +15,7 @@
         {
             "name": "Sam Berry",
             "email": "sam@binshops.com",
-            "homepage": "https://github.com/ghaemelahi/laravel-ticket-version"
+            "homepage": "https://github.com/ghaemelahi/laravel-ticket"
         },
         {
             "name": "Forked and updated by Ghaem",
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Binshops\\LaravelTicket\\TicketServiceProvider"
+                "Binshops\\LaravelTicket\\LaravelTicketServiceProvider"
             ]
         }
     },
